@@ -1,0 +1,34 @@
+\documentclass[a4paper]{article}
+
+% ----------------------- PACKAGES -----------------------
+
+% Setting margins
+\usepackage[margin=30mm]{geometry}
+% Sets paragraphs to skip a line rather than indent
+\usepackage{parskip}
+% Additional mathematical typesetting features
+\usepackage{amsmath, amsfonts}
+
+% ----------------------- DOCUMENT -----------------------
+
+\title{Explanation}
+\author{Aaron Manning}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+    \maketitle
+
+    % Allows display maths to be broken up across pages
+    \allowdisplaybreaks
+
+    % Ragged right text, resolves many hbox overfull issues
+    \raggedright
+
+    % ----------------------- CONTENT -----------------------
+
+    \input{content.tex}
+
+\end{document}
